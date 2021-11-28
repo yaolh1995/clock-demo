@@ -5,11 +5,12 @@ import dayjs from "dayjs";
 defineProps<{ msg: string }>()
 
 const count = ref(0)
+const fuck =dayjs().format()
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
-  {{}}
+  {{fuck}}
 </template>
 
 <style scoped>
